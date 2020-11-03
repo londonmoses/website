@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+}
+
+nav {
+  overflow: hidden;
+  background-color: ghostwhite;
+}
+
+nav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px;
+  float: right;
+}
+
+nav a:hover {
+  color: lightblue;
+}
+
+nav a.active {
+  color: black;
+}
+
+header {
+  position: relative;
+  height:600px;
+  background-color: black;
+  overflow:hidden;
+}
+
+header img {
+  width:100%;
+  min-width:575px;
+  height:auto;
+  min-height:600px;
+  opacity: 0.3;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: white;
+  min-width: 250px;
+  max-width: 500px;
+  position: absolute;
+  top: 45%;
+  left:50%;
+  transform: translate(-50%,-50%)
+}
+
+header h3 {
+  color: white;
+  min-width: 250px;
+  max-width: 500px;
+  position: absolute;
+  top: 45%;
+  left:50%;
+  transform: translate(-50%,-50%)
+}
+
+.blurb {
+  width:300px;
+  margin:100px auto;
+}
+
+.blurb p {
+  padding: 20px 20px;
+}
+
+footer {
+  color: black;
+  background-color: lightblue;
+  height:160px;
+}
+
+footer h1 {
+  float:left;
+  padding-left: 20px;
+}
+
+footer h3 {
+  float:right;
+  padding-right: 20px;
+}
+
+.container {
+  display: grid;
+  align: center;
+  grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+}
+
+
+.subject {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.subject p {
+  padding: 20px 20px;
+}
+
+.resume {
+  padding-left:30px;
+  margin-bottom: 50px;
+}
+
+.resume img {
+  display: block;
+  margin:auto;
+  width: 300px;
+}
+
+.resume h1 {
+  text-align: center;
+}
+
+.resume p {
+  padding: 10px;
+}
